@@ -51,7 +51,7 @@ const Gallery2 = () => {
     </div>
 
     
-        </div>
+       </div>
   )
 }
 

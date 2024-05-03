@@ -31,24 +31,23 @@ const VideoSection = () => {
         </div>
       </div>
       </div>
-      
-      <div className="">
-      <Suspense fallback={<div className="animate-pulse text-center">Loading...</div>}>
-          <Video />
-			</Suspense>
-      </div>
+        
+        <div className="">
+        <Suspense fallback={<div className="animate-pulse text-center">Loading...</div>}>
+            <Video />
+        </Suspense>
+        </div>
        
       <p  className="sm:hidden block max-w-md  text-center mt-10 sm:mx-auto mx-10 text-[22px] text-[#244ca8] font-poppins font-bold">
-        Transforma o fotografie intr-o fascinanta experienta interactiva. Surpriza. Interactiune. Fun.
-     </p>
+          Transforma o fotografie intr-o fascinanta experienta interactiva. Surpriza. Interactiune. Fun.
+      </p>
 
-<div  id="comanda">
-    <Button />
-</div>
-  
+        <div  id="comanda">
+            <Button />
+        </div>
+    
 
-
-     <div className="lg:mx-0 mx-10">
+    <div className="lg:mx-0 mx-10">
      <div className="sm:mt-32 mt-20 max-w-md sm:max-w-4xl  mx-auto">
         <div className="">
           <h1 className="sm:text-[30px] text-[25px] font-semibold font-poppins text-[#134693]">

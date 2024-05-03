@@ -6,7 +6,7 @@ const TipsSection = () => {
   return (
     <>
 
-   <div className="py-10">
+   <div className="py-10 hidden sm:block">
    <Button />
    </div>
 

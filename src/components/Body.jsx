@@ -1,3 +1,4 @@
+import Button from "./Button"
 import Features from "./Features"
 import Gallery from "./Gallery"
 import Gallery2 from "./Gallery2"
@@ -20,6 +21,9 @@ const Body = () => {
     <Features />
     </div>
 
+    <div className="py-10 sm:hidden">
+   <Button />
+   </div>
     <Gallery2 />
 
     <div className="lg:mx-0 mx-10">
