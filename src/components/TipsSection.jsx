@@ -5,6 +5,11 @@ import imag from "../assets/PICS/imag.png"
 const TipsSection = () => {
   return (
     <>
+
+   <div className="py-10">
+   <Button />
+   </div>
+
       <div className="max-w-md sm:max-w-5xl mt-20 flex sm:flex-row flex-col border border-[#4b71a6b5] mx-auto py-10 px-5 sm:py-20 sm:px-10">
         <div className="sm:w-1/2 sm:border-r-[#4b71a6b5] sm:border-r  sm:px-10 px-4">
           <div className="">
@@ -42,7 +47,6 @@ const TipsSection = () => {
         </div>
       </div>
 
-      <Button />
 
     </>
   );

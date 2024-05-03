@@ -82,7 +82,7 @@ const VideoSection = () => {
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Uneste</h6>
           </div>
           <div className="h-full flex items-end mt-8 sm:mt-10">
-            <img src={img1} alt="" className="w-12 sm:w-20  sm:mt-10" />
+            <img src={img1} alt="" className="w-12 sm:w-20  sm:mt-6" />
           </div>
         </div>
 
@@ -96,7 +96,7 @@ const VideoSection = () => {
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Bucurie</h6>
           </div>
           <div className="h-full flex items-end mt-8 sm:mt-10">
-            <img src={img2} alt="" className="w-12  sm:w-20  sm:mt-10" />
+            <img src={img2} alt="" className="w-12  sm:w-20  sm:mt-6" />
           </div>
         </div>
 
@@ -110,7 +110,7 @@ const VideoSection = () => {
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Inspira</h6>
           </div>
           <div className="h-full flex items-end mt-8 sm:mt-10">
-            <img src={img3} alt="" className="w-12 sm:w-20 sm:mt-10" />
+            <img src={img3} alt="" className="w-12 sm:w-20 sm:mt-6" />
           </div>
         </div>
 
@@ -124,13 +124,13 @@ const VideoSection = () => {
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Se vorbeste</h6>
           </div>
           <div className="h-full flex items-end mt-8 sm:mt-10">
-            <img src={img4} alt="" className="w-12 sm:w-20 sm:mt-10" />
+            <img src={img4} alt="" className="w-12 sm:w-20 sm:mt-6" />
           </div>
         </div>
 
       </div>
 
-      <div className="mt-20 sm:mt-48 max-w-md  sm:max-w-6xl mx-auto">
+      <div className="mt-20 sm:mt-32 max-w-md  sm:max-w-6xl mx-auto">
           <div className="border border-blue-500 p-2 w-fit mx-auto">
             <div className="border border-blue-500 py-5 px-8">
               <span className="sm:text-[30px] text-[25px] font-poppins font-bold text-[#244ca8]">
