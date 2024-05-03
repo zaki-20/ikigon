@@ -12,12 +12,21 @@ const Body = () => {
     <VideoSection />
     <div className="lg:mx-0 mx-10">
     <Table />
+    </div>
+    
     <Gallery />
+
+    <div className="lg:mx-0 mx-10">
     <Features />
+    </div>
+
     <Gallery2 />
+
+    <div className="lg:mx-0 mx-10">
     <TipsSection />
     <Subscribe />
-</div>
+    </div>
+
     </>
  
   )

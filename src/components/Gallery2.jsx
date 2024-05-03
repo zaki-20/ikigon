@@ -33,23 +33,23 @@ const Gallery2 = () => {
                 large={imageUrl}
                 alt="gallery"
                 hideDownload
-          />;
+          />
           </div>
         ) )
       }
     </div>
-    <div className="sm:hidden max-w-md sm:max-w-3xl   mx-10">
-        <AutoplaySlider className="sm:h-[400px]" play={true} cancelOnInteraction={false} organicArrows={false} animation={true}>
+    <div className="sm:hidden mx-10 py-10">
+        <AutoplaySlider className="h-80" play={true} cancelOnInteraction={false} organicArrows={false} animation={true}>
         {
         imageUrls.map((imageUrl, index) => (
-          <div key={index} className=" ">
-            <img className=" object-cover w-full" src={imageUrl} alt />
+          <div className=" w-full h-full" key={index}  >
+            <img src={imageUrl} alt="" className='object-cover w-full h-full'/>
           </div>
         ) )
       }
       </AutoplaySlider>
-    
     </div>
+
     
         </div>
   )

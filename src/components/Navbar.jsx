@@ -58,24 +58,24 @@ export default function Navbar() {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 pb-3 pt-2">
+            <div className=" pb-3 pt-2 px-4">
               {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
+              <AnchorLink  href='#comanda' className=''>
               <Disclosure.Button
                 as="a"
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
               >
-                <AnchorLink  href='#comanda'>
                    comanda acum  
+              </Disclosure.Button>
                 </AnchorLink>
-              </Disclosure.Button>
 
-              <Disclosure.Button
-                 as="a"
-                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700" >
-                  <Link to='/message-form'>
-                  contact 
+                <Link to='/message-form' className=''>
+                  <Disclosure.Button
+                     as="a"
+                     className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700" >
+                      contact 
+                 </Disclosure.Button>
                   </Link>
-              </Disclosure.Button>
            
             </div>
        

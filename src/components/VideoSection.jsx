@@ -12,7 +12,7 @@ const VideoSection = () => {
   return (
     <>
 
-      <div className="lg:mx-0 mx-10">
+      <div className="lg:mx-0 sm:mx-10">
       <div className="text-center mt-20 max-w-6xl mx-auto">
         <div className="">
           <h1 className="font-roboto font-bold text-[#264aa7] text-[39px] sm:text-[33px] ">
@@ -81,7 +81,7 @@ const VideoSection = () => {
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Creaza atmosfera</h6>
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Uneste</h6>
           </div>
-          <div className="h-full flex items-end mt-5 sm:mt-10">
+          <div className="h-full flex items-end mt-8 sm:mt-10">
             <img src={img1} alt="" className="w-12 sm:w-20  sm:mt-10" />
           </div>
         </div>
@@ -95,7 +95,7 @@ const VideoSection = () => {
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Incredere</h6>
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Bucurie</h6>
           </div>
-          <div className="h-full flex items-end mt-5 sm:mt-10">
+          <div className="h-full flex items-end mt-8 sm:mt-10">
             <img src={img2} alt="" className="w-12  sm:w-20  sm:mt-10" />
           </div>
         </div>
@@ -109,7 +109,7 @@ const VideoSection = () => {
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Fara varsta</h6>
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Inspira</h6>
           </div>
-          <div className="h-full flex items-end mt-5 sm:mt-10">
+          <div className="h-full flex items-end mt-8 sm:mt-10">
             <img src={img3} alt="" className="w-12 sm:w-20 sm:mt-10" />
           </div>
         </div>
@@ -123,7 +123,7 @@ const VideoSection = () => {
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Subiectu petrecerii</h6>
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Se vorbeste</h6>
           </div>
-          <div className="h-full flex items-end mt-5 sm:mt-10">
+          <div className="h-full flex items-end mt-8 sm:mt-10">
             <img src={img4} alt="" className="w-12 sm:w-20 sm:mt-10" />
           </div>
         </div>

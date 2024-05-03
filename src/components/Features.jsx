@@ -48,17 +48,17 @@ const Features = () => {
           </h1>
         </div>
 
-        <div className="w-full flex sm:flex-row flex-col mt-12 items-center justify-center ">
-          <div className="py-10 sm:w-1/2  flex justify-start items-center">
+        <div className="w-full flex sm:flex-row flex-col  mt-12 items-center justify-center ">
+          <div className="py-10 sm:w-1/2 order-1 sm:order-none flex justify-start items-center">
             <img
               src={img1}
               alt=""
-              className="w-56 h-56 rounded-full object-cover "
+              className="w-56 h-56 rounded-full object-cover"
             />
           </div>
           <div className="sm:w-1/2">
             <h1 className="text-[#264aa7] text-[18px] font-bold font-poppins">Aniversari</h1>
-            <p className="mt-2 text-[#4b71a6] text-[15px] font-roboto ">
+            <p className="mt-2 text-[#4b71a6] sm:text-lg text-[15px] font-roboto ">
               Marcheaza etapele importante ale relatiilor, fie ca este vorba de
               legaturi romantice, prietenie sau parteneriate profesionale. Un
               Ikigon oferit la o aniversare va simboliza calatoria comuna,
@@ -68,7 +68,7 @@ const Features = () => {
         </div>
 
         <div className="w-full flex sm:flex-row flex-col mt-12 items-center justify-center ">
-          <div className="py-10 sm:w-1/2 sm:order-2 flex justify-end items-center">
+          <div className="py-10 sm:w-1/2 order-1 sm:order-2 flex justify-end items-center">
             <img
               src={img2}
               alt=""
@@ -77,7 +77,7 @@ const Features = () => {
           </div>
           <div className="sm:w-1/2">
             <h1 className="text-[#264aa7] text-[18px] font-bold font-poppins">Nunti</h1>
-            <p className="mt-2 text-blue-700 text-lg ">
+            <p className="mt-2 text-[#4b71a6] sm:text-lg text-[15px] ">
               Sunt ocazii speciale unde oferirea unui Ikigon va surprinde atat
               tinerii casatoriti cat si pe ceilalti participanti la petrecere.
               Telefoanele se vor deschide si intreg procesul de dezvaluire a
@@ -88,7 +88,7 @@ const Features = () => {
         </div>
 
         <div className="w-full flex sm:flex-row flex-col mt-12 items-center justify-center ">
-          <div className="py-10 sm:w-1/2  flex justify-start items-center">
+          <div className="py-10 sm:w-1/2 order-1 sm:order-none flex justify-start items-center">
             <img
               src={img3}
               alt=""
@@ -99,7 +99,7 @@ const Features = () => {
             <h1 className="text-[#264aa7] text-[18px] font-bold font-poppins">
               Ziua Indragostitilor
             </h1>
-            <p className="mt-2 text-blue-700 text-lg ">
+            <p className="mt-2 text-[#4b71a6] sm:text-lg text-[15px]  ">
               Este sinonima cu expresia dragostei si afectiunii, fiind o ocazie
               ideala pentru gesturi romantice si cadouri bine gandite iar
               oferirea unui Ikigon cu acesta ocazie cu siguranta va fi o
@@ -109,7 +109,7 @@ const Features = () => {
         </div>
 
         <div className="w-full flex sm:flex-row flex-col mt-12 items-center justify-center ">
-          <div className="py-10 sm:w-1/2 sm:order-2 flex justify-end items-center">
+          <div className="py-10 sm:w-1/2 order-1 sm:order-2 flex justify-end items-center">
             <img
               src={img4}
               alt=""
@@ -120,7 +120,7 @@ const Features = () => {
             <h1 className="text-[#264aa7] text-[18px] font-bold font-poppins">
               Inaugurarea casei{" "}
             </h1>
-            <p className="mt-2 text-blue-700 text-lg ">
+            <p className="mt-2 text-[#4b71a6] sm:text-lg text-[15px]  ">
               Poate fi ocaza perfecta pentru dezvaluirea unui Ikigon. Este un
               gest de atentie si apreciere pentru noua lor casă, o urare de bine
               si o incurajare. De asemenea va ajuta ca tranziția să fie mai lină
@@ -130,7 +130,7 @@ const Features = () => {
         </div>
 
         <div className="w-full flex sm:flex-row flex-col mt-12 items-center justify-center ">
-          <div className="py-10 sm:w-1/2  flex justify-start items-center">
+          <div className="py-10 sm:w-1/2 order-1 sm:order-none  flex justify-start items-center">
             <img
               src={img5}
               alt=""
@@ -141,7 +141,7 @@ const Features = () => {
             <h1 className="text-blue-900 text-xl font-bold">
               Sarbatori la locul de munca{" "}
             </h1>
-            <p className="mt-2 text-blue-700 text-lg ">
+            <p className="mt-2 text-[#4b71a6] sm:text-lg text-[15px] ">
               Marcheaza repere semnificative in calatoria propriei cariere,
               fiind ocazii de recunoastere si apreciere. Un Ikigon oferit in
               acest context transmite admiratie pentru realizari si ofera
