@@ -13,7 +13,7 @@ const Features = () => {
           <h1 className="sm:text-[25px] text-[22px] font-semibold font-poppins text-[#264aa7]">
             Ce este un “mistery gift”
           </h1>
-          <p className="mt-7 text-[15px] font-roboto text-[#4b71a6] text-justify">
+          <p className="mt-7 text-[15px] font-roboto text-[#4b71a6] ">
             Un mistery gift (cadou misterios) este acel cadou care ofera o
             surpriza persoanei careia ii este destinat. Acest gen de cadou are
             avantajul ca surprinde, intriga si starneste curiozitatea generand
@@ -26,7 +26,7 @@ const Features = () => {
           <h1 className="sm:text-[25px] text-[22px] font-semibold font-poppins text-[#264aa7]">
             De ce Ikigon
           </h1>
-          <p className="mt-7 text-[15px] font-roboto text-[#4b71a6]  text-justify">
+          <p className="mt-7 text-[15px] font-roboto text-[#4b71a6] ">
             Ikigon este mai mult decat un simplu cadou, este un simbol al
             dragostei si al aprecierii. Este un concept nou si inovativ ce
             comunica o varietate de mesaje in functie de ocazie sau de relatia
