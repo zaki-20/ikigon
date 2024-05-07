@@ -44,10 +44,10 @@ const Table = () => {
     <>
           <div className='max-w-md sm:max-w-2xl mx-auto mt-32'>
             {data.map((item, index) => (
-                    <div key={index} className={`border-t-2 border-l-2 border-r-2  border-[#4b71a6b5] py-5 px-10 sm:px-20 sm:py-10 ${index == data.length - 1 ? 'border-b-2 border-[#4b71a6b5]' : ''}`}>
+                    <div key={index} className={`border-t-[1px] border-l-[1px] border-r-[1px]  border-[#4b71a6b5] py-5 px-6 sm:px-20 sm:py-10 ${index == data.length - 1 ? 'border-b-[1px] border-[#4b71a6b5]' : ''}`}>
                     {item.title && <h1 className="sm:text-[16px] text-[14px] font-semibold font-poppins text-[#4b71a6]">{item.title}</h1>}
-                <ul className="list-disc mt-5">
-                    <li className="text-[15px]  font-poppins text-[#4b71a6]" dangerouslySetInnerHTML={{ __html: item.paragraph }}></li>
+                <ul className="list-disc mt-2">
+                    <li className="text-[12px]  font-poppins text-[#4b71a6]" dangerouslySetInnerHTML={{ __html: item.paragraph }}></li>
                 </ul>
                 </div>
             ))}

@@ -21,7 +21,7 @@ const Body = () => {
     <Features />
     </div>
 
-    <div className="py-10 sm:hidden">
+    <div className=" sm:hidden">
    <Button />
    </div>
     <Gallery2 />

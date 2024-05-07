@@ -16,7 +16,7 @@ const VideoSection = () => {
       <div className="text-center mt-20 max-w-6xl mx-auto">
         <div className="">
           <h1 className="font-roboto font-bold text-[#264aa7] text-[39px] sm:text-[33px] ">
-            CAUTI UN CADOU... WOW?
+            CAUTI UN CADOU...WOW?
           </h1>
         </div>
         <div className="mt-2 hidden sm:block">
@@ -38,7 +38,7 @@ const VideoSection = () => {
         </Suspense>
         </div>
        
-      <p  className="sm:hidden block max-w-md  text-center mt-10 sm:mx-auto mx-10 text-[22px] text-[#244ca8] font-poppins font-bold">
+      <p  className="sm:hidden block max-w-md  text-center mt-10 sm:mx-auto mx-10 text-[20px] text-[#244ca8] font-poppins font-bold">
           Transforma o fotografie intr-o fascinanta experienta interactiva. Surpriza. Interactiune. Fun.
       </p>
 
@@ -53,7 +53,7 @@ const VideoSection = () => {
           <h1 className="sm:text-[30px] text-[25px] font-semibold font-poppins text-[#134693]">
             Cauti un cadou special?
           </h1>
-          <p className="mt-7 text-[15px] font-roboto  text-[#4b71a6] leading-8  text-justify">
+          <p className="mt-7 text-[15px] font-roboto  text-[#4b71a6] leading-6  text-justify">
             Cadourile pot deveni un subiect sensibil, mai ales atunci cand intri
             in criza de timp, si cum succesul unui cadou este determinat de
             multi factori, de multe ori alegerea lui ajunge sa se transforme
@@ -80,7 +80,7 @@ const VideoSection = () => {
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Creaza atmosfera</h6>
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Uneste</h6>
           </div>
-          <div className="h-full flex items-end mt-8 sm:mt-10">
+          <div className="h-full flex items-end mt-10">
             <img src={img1} alt="" className="w-12 sm:w-20  sm:mt-6" />
           </div>
         </div>
@@ -94,7 +94,7 @@ const VideoSection = () => {
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Incredere</h6>
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Bucurie</h6>
           </div>
-          <div className="h-full flex items-end mt-8 sm:mt-10">
+          <div className="h-full flex items-end mt-10">
             <img src={img2} alt="" className="w-12  sm:w-20  sm:mt-6" />
           </div>
         </div>
@@ -108,7 +108,7 @@ const VideoSection = () => {
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Fara varsta</h6>
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Inspira</h6>
           </div>
-          <div className="h-full flex items-end mt-8 sm:mt-10">
+          <div className="h-full flex items-end mt-10">
             <img src={img3} alt="" className="w-12 sm:w-20 sm:mt-6" />
           </div>
         </div>
@@ -122,7 +122,7 @@ const VideoSection = () => {
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Subiectu petrecerii</h6>
           <h6 className="mt-1 font-roboto text-[11px] font-medium text-white">Se vorbeste</h6>
           </div>
-          <div className="h-full flex items-end mt-8 sm:mt-10">
+          <div className="h-full flex items-end mt-10">
             <img src={img4} alt="" className="w-12 sm:w-20 sm:mt-6" />
           </div>
         </div>
