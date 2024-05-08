@@ -38,7 +38,7 @@ const VideoSection = () => {
         </Suspense>
         </div>
        
-      <p  className="sm:hidden block max-w-md  text-center mt-10 sm:mx-auto mx-10 text-[20px] text-[#244ca8] font-poppins font-bold">
+      <p  className="sm:hidden block  text-center mt-10 sm:mx-auto mx-10 text-[20px] text-[#244ca8] font-poppins font-bold">
           Transforma o fotografie intr-o fascinanta experienta interactiva. Surpriza. Interactiune. Fun.
       </p>
 
@@ -50,7 +50,7 @@ const VideoSection = () => {
     <div className="lg:mx-0 mx-10">
      <div className="sm:mt-32 mt-20 max-w-md sm:max-w-4xl  mx-auto">
         <div className="">
-          <h1 className="sm:text-[30px] text-[25px] font-semibold font-poppins text-[#134693]">
+          <h1 className="sm:text-[30px] text-[23px] font-semibold font-poppins text-[#134693]">
             Cauti un cadou special?
           </h1>
           <p className="mt-7 text-[15px] font-roboto  text-[#4b71a6] leading-6  text-justify">
@@ -131,7 +131,7 @@ const VideoSection = () => {
 
       <div className="mt-20 sm:mt-32 max-w-md  sm:max-w-6xl mx-auto">
           <div className="border border-blue-500 p-2 w-fit mx-auto">
-            <div className="border border-blue-500 py-5 px-8">
+            <div className="border border-blue-500 py-4 px-8">
               <span className="sm:text-[30px] text-[25px] font-poppins font-bold text-[#244ca8]">
                 Pret: 1.399 ron
               </span>

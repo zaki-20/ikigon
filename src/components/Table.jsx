@@ -42,7 +42,7 @@ const Table = () => {
 
   return (
     <>
-          <div className='max-w-md sm:max-w-2xl mx-auto mt-32'>
+          <div className='max-w-md sm:max-w-2xl mx-auto mt-20'>
             {data.map((item, index) => (
                     <div key={index} className={`border-t-[1px] border-l-[1px] border-r-[1px]  border-[#4b71a6b5] py-5 px-6 sm:px-20 sm:py-10 ${index == data.length - 1 ? 'border-b-[1px] border-[#4b71a6b5]' : ''}`}>
                     {item.title && <h1 className="sm:text-[16px] text-[14px] font-semibold font-poppins text-[#4b71a6]">{item.title}</h1>}

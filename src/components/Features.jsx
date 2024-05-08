@@ -56,7 +56,7 @@ const Features = () => {
             />
           </div>
           <div className="sm:w-1/2">
-            <h1 className="text-[#264aa7] sm:text-[18px] text-[15px] font-bold font-poppins">
+          <h1 className="text-[#264aa7] text-[18px] font-semibold font-poppins">
               Aniversari
             </h1>
             <p className="mt-2 text-[#4b71a6] sm:text-lg text-[15px] font-roboto">
@@ -77,7 +77,7 @@ const Features = () => {
             />
           </div>
           <div className="sm:w-1/2">
-            <h1 className="text-[#264aa7] text-[18px] font-bold font-poppins">
+          <h1 className="text-[#264aa7] text-[18px] font-semibold font-poppins">
               Nunti
             </h1>
             <p className="mt-2 text-[#4b71a6] sm:text-lg text-[15px] font-roboto ">
@@ -99,7 +99,7 @@ const Features = () => {
             />
           </div>
           <div className="sm:w-1/2">
-            <h1 className="text-[#264aa7] text-[18px] font-bold font-poppins">
+          <h1 className="text-[#264aa7] text-[18px] font-semibold font-poppins">
               Ziua Indragostitilor
             </h1>
             <p className="mt-2 text-[#4b71a6] sm:text-lg text-[15px]  font-roboto">
@@ -120,7 +120,7 @@ const Features = () => {
             />
           </div>
           <div className="sm:w-1/2">
-            <h1 className="text-[#264aa7] text-[18px] font-bold font-poppins">
+            <h1 className="text-[#264aa7] text-[18px] font-semibold font-poppins">
               Inaugurarea casei{" "}
             </h1>
             <p className="mt-2 text-[#4b71a6] sm:text-lg text-[15px] font-roboto ">
@@ -141,7 +141,7 @@ const Features = () => {
             />
           </div>
           <div className="sm:w-1/2">
-            <h1 className="text-blue-900 text-xl font-bold">
+          <h1 className="text-[#264aa7] text-[18px] font-semibold font-poppins">
               Sarbatori la locul de munca{" "}
             </h1>
             <p className="mt-2 text-[#4b71a6] sm:text-lg text-[15px] font-roboto">

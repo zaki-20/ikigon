@@ -39,7 +39,7 @@ const TipsSection = () => {
             </ul>
           </div>
         </div>
-        <hr className="bg-[#264aa7] mt-4 sm:hidden block"/>
+        <hr className="bg-[#264aa7] mt-4 sm:hidden block -mx-5"/>
         <div className="sm:w-1/2 flex justify-center items-center">
             <div className="text-5xl text-bold text-blue-950 ">
                 <img src={imag} alt="" />

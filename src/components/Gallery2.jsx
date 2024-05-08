@@ -20,9 +20,8 @@ const Gallery2 = () => {
     img1,img2,img3,img4,img5,img6
   ];
   return (
-    <div className="bg-gray-200 sm:py-36 py-12 mt-20 ">
+    <div className="bg-gray-200 sm:py-36 py-12 sm:mt-20 mt-32 ">
         
-
     <div className="hidden sm:grid grid-cols-2 md:grid-cols-3 gap-4 max-w-md sm:max-w-3xl mx-auto bg-[#ff520d2]">
       {
         imageUrls.map((imageUrl, index) => (

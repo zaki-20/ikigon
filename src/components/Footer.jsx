@@ -18,8 +18,8 @@ const Footer = () => {
                 <FiFacebook size={20} />
               </div>
             </li>
-          </ul>
-          <ul className="mt-12 flex flex-wrap font-roboto text-[12px] justify-center gap-4 md:gap-6 lg:gap-8">
+          </ul >
+          <ul className="mt-6 flex flex-wrap font-roboto text-[12px] items-center justify-center gap-x-4 md:gap-6 lg:gap-8">
             <li>
               <Link className="text-white transition " to="/gdpr">
                 GDPR
